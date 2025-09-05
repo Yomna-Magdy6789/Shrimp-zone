@@ -1,0 +1,48 @@
+{
+  "menu_items": [
+    {
+      "id": 1,
+      "name": "طبق جمبري مقلي",
+      "description": "جمبري مقلي ومقرمش مع صلصة ديناميت مميزة.",
+      "price": "150 جنيه",
+      "image_url": "images/fried-shrimp.jpeg",
+      "category": "جمبري مقلي"
+    },
+    {
+      "id": 2,
+      "name": "باستا الجمبري",
+      "description": "باستا بصلصة كريمية وقطع جمبري طازجة.",
+      "price": "120 جنيه",
+      "image_url": "images/fried-shrimp.jpeg",
+      "category": "باستا"
+    },
+    {
+      "id": 3,
+      "name": "أصابع الكابوريا المقلية",
+      "description": "أصابع كابوريا مقلية ذهبية ومقرمشة.",
+      "price": "80 جنيه",
+      "image_url": "images/fried-pasta.jpeg",
+      "category": "مقليات"
+    },
+    {
+      "id": 4,
+      "name": "أصابع الكابوريا المقلية",
+      "description": "أصابع كابوريا مقلية ذهبية ومقرمشة.",
+      "price": "80 جنيه",
+      "image_url": "images/fried-pasta.jpeg",
+      "category": "مقليات"
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "name": "فرع مدينة نصر",
+      "address": "شارع عباس العقاد، مدينة نصر، القاهرة."
+    },
+    {
+      "id": 2,
+      "name": "فرع المهندسين",
+      "address": "شارع جامعة الدول العربية، المهندسين، الجيزة."
+    }
+  ]
+}
