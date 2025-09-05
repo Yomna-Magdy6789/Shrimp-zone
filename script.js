@@ -6,11 +6,12 @@ if (menuItemsContainer) {
     const fetchMenuItems = async () => {
         try {
             // The URL for our JSON Server endpoint
-            const response = await fetch('http://localhost:3000/menu_items');
+            const response = await fetch('db.json');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
-            const menuItems = await response.json();
+            const data = await response.json();
+            const menuItems = data.menu_items;
             renderMenuItems(menuItems);
         } catch (error) {
             console.error('Error fetching menu items:', error);
@@ -40,4 +41,5 @@ if (menuItemsContainer) {
 
     // Call the function when the page loads
     fetchMenuItems();
+
 }
